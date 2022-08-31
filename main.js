@@ -9,7 +9,7 @@ const swiper = new Swiper("main", {
         pagination: {
             el: ".swiper-pagination",
             //clickable: true
-            type: "fraction"
+            type: "fraction"//패널쪽수로
         },
         navigation: {
             nextEl: '.swiper-button-next',
@@ -20,6 +20,6 @@ const swiper = new Swiper("main", {
             rotate: 50,//y축 회전각도
             stretch: -100,//당겨짐 정도
             depth: 400,//입체적인 왜곡효과정도
-            slideShadow: false, //패널의 그림자설정
+            slideShadows: false //패널의 그림자설정
         }   
     });
